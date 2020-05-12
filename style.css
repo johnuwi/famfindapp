@@ -1,0 +1,128 @@
+/*Desktop only CSS*/
+@media only screen and (min-width: 600px) {
+.valign-wrapper {
+  padding-left: 44% !important;
+}
+
+  .buttoncol{
+ padding-left: 47% !important;
+
+}
+}
+
+.valign-wrapper {
+  padding-left: 35% !important;
+}
+
+
+/*mobile css for button*/
+.buttoncol{
+ padding-left: 41% !important;
+}
+
+
+h2 {
+   font-size:24px; 
+   text-align: center; 
+   font-weight: 400; 
+   font-family:Arial, Helvetica, sans-serif;
+   color: #29ABE2;
+}
+.waveicon{
+width: 50%; 
+float: right;
+overflow: hidden;
+margin-bottom: 0px;
+}
+
+.wavefriends{
+	width: 100%; 
+	overflow: hidden;
+	margin-bottom: 0px;	
+}
+
+.wavetop-friends{
+	float: left;
+	width: 50%;
+	margin-top: 0px !important;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+.welcometxt{
+	text-align: left;
+	color: white;
+	margin-top: 3px;
+	margin-left: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.compassicon{
+width: 15%; 
+overflow: hidden;
+margin-left: 10px;
+margin-top:10px;
+margin-bottom: 0px;
+display: block;
+}
+#myForm{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.row{
+  margin-bottom: 0px;
+}
+
+
+.btn1 {
+	background-color:#44c767;
+	border-radius:3px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	text-decoration:none;
+  margin-bottom: 20px
+}
+.btn1:hover {
+	background-color:#5cbf2a;
+}
+.btn1:active {
+	position:relative;
+	top:1px;
+}
+
+
+.loginbtn {
+	background-color:#7dd9fa;
+	border-radius:5px;
+	border:3px solid #3eaec2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:10px 21px;
+	text-decoration:none;
+}
+.loginbtn:hover {
+	background-color:#5696e3;
+}
+.loginbtn:active {
+	position:relative;
+	top:1px;
+}
+
+        
+ .already{
+ text-align: center;
+ }       
+
+
+ h2{
+   font-family:cursive;
+   }

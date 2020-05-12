@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<!-- Timer code
+ <input type="button" id="start" onclick="startTimer()" value="Start Timer"/>
+  <input type="button" id="start" value="End Timer" />
+-->
+<div style="margin-top: 10vh"> </div>
+  <div class="row">
+    <form id="myForm" class="col s12" >
+ <!-- <img class="compassicon" src="/Asset-1.png"> -->
+
+
+<h2> Sign Up </h2>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input name="fname" type="text" minlength="2" required>
+          <label for="fname">first name</label>
+        </div>
+      </div>
+    
+    <div class="row">
+        <div class="input-field col s12">
+          <input name="lname" type="text" minlength="2" required>
+          <label for="lname">last name</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input name="username" type="text" minlength="8" required>
+          <label for="username">username</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input name="password" type="password"  required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+          <label for="password">password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input name="email" type="email" required>
+          <label for="email">email</label>
+        </div>
+      </div>
+                
+      <div class="row">
+        <div class="valign-wrapper col">
+          <input type="submit" class="btn1 btn waves-effect waves-light" value="Sign Up" required/>
+        </div>
+      </div>
+    </form>
+    
+    <div class="already">
+     <sup>Already have an account?</sup>
+    </div>
+     
+ <div class="row">
+  <div class="buttoncol valign-wrapper col">
+  <a onclick="window.location.href = 'http://127.0.0.1:5500/friends.html#'" href="http://127.0.0.1:5500/friends.html#" class="loginbtn">
+    LOGIN
+    </a>
+  </div>
+ </div>
+    </form>
+  
+  <img class="waveicon" src="/Asset-5.png">
+
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+  
