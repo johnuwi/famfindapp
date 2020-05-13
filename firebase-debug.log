@@ -1,0 +1,27 @@
+[debug] [2020-05-12T18:00:26.515Z] ----------------------------------------------------------------------
+[debug] [2020-05-12T18:00:26.517Z] Command:       /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/firebase deploy --only hosting:famtrack
+[debug] [2020-05-12T18:00:26.518Z] CLI Version:   8.2.0
+[debug] [2020-05-12T18:00:26.518Z] Platform:      darwin
+[debug] [2020-05-12T18:00:26.518Z] Node Version:  v13.11.0
+[debug] [2020-05-12T18:00:26.526Z] Time:          Tue May 12 2020 14:00:26 GMT-0400 (Atlantic Standard Time)
+[debug] [2020-05-12T18:00:26.526Z] ----------------------------------------------------------------------
+[debug] [2020-05-12T18:00:26.526Z] 
+[debug] [2020-05-12T18:00:26.536Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-12T18:00:26.537Z] > authorizing via signed-in user
+[debug] [2020-05-12T18:00:26.537Z] [iam] checking project fam-track-d6660 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-05-12T18:00:26.542Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fam-track-d6660:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-05-12T18:00:27.130Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 12 May 2020 18:00:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=191","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-12T18:00:27.132Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fam-track-d6660  
+ 
+[debug] [2020-05-12T18:00:27.738Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 12 May 2020 18:00:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-12T18:00:27.993Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:120:11)
+    at Object.join (path.js:1039:7)
+    at Object.checkFunctionsSDKVersion [as fn] (/usr/local/lib/node_modules/firebase-tools/lib/checkFirebaseSDKVersion.js:33:28)
+    at Command.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/command.js:159:30)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/local/lib/node_modules/firebase-tools/lib/command.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
