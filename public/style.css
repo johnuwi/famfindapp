@@ -1,7 +1,7 @@
 /*Desktop only CSS*/
 @media only screen and (min-width: 600px) {
 .valign-wrapper {
-  padding-left: 44% !important;
+  padding-left: 45% !important;
 }
 
   .buttoncol{
@@ -10,6 +10,7 @@
 }
 }
 
+@media only screen and (max-width: 600px){
 .valign-wrapper {
   padding-left: 35% !important;
 }
@@ -19,7 +20,7 @@
 .buttoncol{
  padding-left: 41% !important;
 }
-
+}
 
 h2 {
    font-size:24px; 
